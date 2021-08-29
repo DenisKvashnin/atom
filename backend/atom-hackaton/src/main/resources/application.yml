@@ -1,0 +1,36 @@
+server:
+  port: 8776
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/atom
+    username: atom
+    password: atom
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:/db/changelog/changelog.xml
+  cache:
+    jcache:
+      config: ehcache.xml
+logging:
+  level:
+    liquibase: INFO
+
+springdoc:
+  paths-to-exclude: /swagger-resources/**
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: FULL
+
+
+outer:
+  services:
+    daDataAdapter:
+      findOrganizationByInn:
+        url: https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party
+        token: Token stub

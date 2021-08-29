@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+  backend-service2:
+    build: .
+    image: atom-service1:latest
+    container_name: atom-service1
+    depends_on:
+      - db
+    ports:
+      - "8776:8776"
+    volumes:
+      - /logs:/var/log
+
+    restart: always
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/atom
+  db:
+    image: 'postgres:13.1-alpine'
+    container_name: db
+    environment:
+      - POSTGRES_USER=atom
+      - POSTGRES_PASSWORD=atom

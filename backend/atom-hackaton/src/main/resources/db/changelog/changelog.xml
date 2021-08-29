@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <include file="changes/1.0-hello-table.sql" relativeToChangelogFile="true"/>
+    <include file="changes/2-okved-create-table.sql" relativeToChangelogFile="true"/>
+    <include file="changes/3-map-create-table.sql" relativeToChangelogFile="true"/>
+    <include file="changes/4-organization-create-table.sql" relativeToChangelogFile="true"/>
+    <include file="changes/5-change-organization-table.sql" relativeToChangelogFile="true"/>
+    <include file="changes/6-region-create-table.sql" relativeToChangelogFile="true"/>
+    <include file="changes/7-update-region.sql" relativeToChangelogFile="true"/>
+    <include file="changes/8-outer-org-type.sql" relativeToChangelogFile="true"/>
+    <include file="changes/9-okved_2_outer_type.sql" relativeToChangelogFile="true" />
+    <include file="changes/10-atom-city-dictionary.sql" relativeToChangelogFile="true" />
+    <include file="changes/11-raex-dictionary.sql" relativeToChangelogFile="true" />
+    <include file="changes/12-raex-clear-data.sql" relativeToChangelogFile="true" />
+    <include file="changes/13-indexes.sql" relativeToChangelogFile="true" />
+    <include file="changes/14-org-location-create-table.sql" relativeToChangelogFile="true" />
+    <include file="changes/15-organization-alter-table.sql" relativeToChangelogFile="true" />
+    <include file="changes/16-create-index-map.sql" relativeToChangelogFile="true" />
+    <include file="changes/17-legal-org.sql" relativeToChangelogFile="true" />
+    <include file="changes/18-raex-fix.sql" relativeToChangelogFile="true" />
+</databaseChangeLog>

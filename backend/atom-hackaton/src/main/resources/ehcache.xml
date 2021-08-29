@@ -1,0 +1,62 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+         updateCheck="true"
+         monitoring="autodetect"
+         dynamicConfig="true">
+<!--    <cache name="socialNetwork"-->
+<!--           maxEntriesLocalHeap="1000"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+<!--    <cache name="searchData"-->
+<!--           maxEntriesLocalHeap="155922"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+<!--    <cache name="mapSearchData"-->
+<!--           maxEntriesLocalHeap="4000000"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+<!--    <cache name="regionAll"-->
+<!--           maxEntriesLocalHeap="100"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+<!--    <cache name="findAllRegion"-->
+<!--           maxEntriesLocalHeap="10000"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+<!--    <cache name="findAllByName"-->
+<!--           maxEntriesLocalHeap="340000"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+<!--    <cache name="setsCityName"-->
+<!--           maxEntriesLocalHeap="30"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+<!--    <cache name="findSearch"-->
+<!--           maxEntriesLocalHeap="300000"-->
+<!--           eternal="true"-->
+<!--           timeToLiveSeconds="100"-->
+<!--           memoryStoreEvictionPolicy="LFU">-->
+<!--    </cache>-->
+
+</ehcache>
